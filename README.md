@@ -75,6 +75,13 @@ The project includes:
   - Work-life Balance & Job Satisfaction impact
   - Attrition rate by Education level
 
+## Dashboard Preview
+
+### Employee Attrition Summary
+![Summary Dashboard](Attrition_Dashboard/attrition_summary_dashboard_1.png)
+
+### Attrition Deep Dive
+![Deep Dive Dashboard](Attrition_Dashboard/deep_dive_dashboard_2.png)
 ---
 
 ## Key Insights
