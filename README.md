@@ -80,8 +80,20 @@ The project includes:
 ### Employee Attrition Summary
 ![Summary Dashboard](Attrition_Dashboard/attrition_summary_dashboard_1.png)
 
+- Highlights
+  - Overview of key KPIs such as total employees, attrition rate, and average salary
+  - Attrition breakdown by job role, gender, and experience
+  - Salary vs stress correlation analysis
+  - Impact of overtime on employee attrition
+
 ### Attrition Deep Dive
 ![Deep Dive Dashboard](Attrition_Dashboard/deep_dive_dashboard_2.png)
+
+- Highlights
+  - Identification of high-risk and burnout-prone employees
+  - Salary outlier analysis and its impact on attrition
+  - Work-life balance vs job satisfaction relationship
+  - Attrition distribution across education and job roles 
 ---
 
 ## Key Insights
