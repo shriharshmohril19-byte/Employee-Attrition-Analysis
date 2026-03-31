@@ -1,11 +1,12 @@
-# Employee Attrition Analysis
+# Employee Attrition Analysis (SQL + Power BI)
 
-End-to-end SQL analysis of an employee attrition dataset, including data cleaning, transformation, and advanced analytics. Uses window functions, aggregations, and feature engineering to uncover key drivers of attrition, segment employee risk, and generate actionable insights.
+End-to-end data analysis of an employee attrition dataset, including data cleaning, transformation, and advanced analytics. Uses window functions, aggregations, and feature engineering to uncover key drivers of attrition, segment employee risk, and generate actionable insights that are visualized using Power BI dashboard for deeper exploration.
 
 The project includes:
 - Data cleaning & preprocessing
 - Exploratory data analysis (EDA)
 - Advanced SQL analytics
+- Power BI dashboard for visualization
   
 ---
 
@@ -13,8 +14,9 @@ The project includes:
 - Identify factors influencing employee attrition
 - Analyze salary, experience, and job roles
 - Evaluate impact of overtime and commute distance
-- Detect high-risk employees
+- Detect high-risk employees and burnout prone employees
 - Build a stress scoring system
+- Present insights through an interactive dashboard
 
 ---
 
@@ -25,9 +27,9 @@ The project includes:
 
 ---
 
-## Data Cleaning Steps
-- Removed duplicate records using `ROW_NUMBER()`
-- Cleaned numeric fields using `REGEXP_REPLACE`
+## Data Cleaning & Preparation (SQL)
+- Removed duplicate records using 'ROW_NUMBER()'
+- Cleaned numeric fields using 'REGEXP_REPLACE'
 - Trimmed and standardized text fields
 - Renamed inconsistent column names
 - Performed validation checks (age, income)
@@ -58,25 +60,35 @@ The project includes:
   - Number of Promotions
   - Distance from Home
 
+### Power BI Dashboard
+ The cleaned and transformed dataset is visualized in a two-page interactive dashboard:
+- **Employee Attrition Summary**
+  - KPIs such as Attrition Rate, Salary, Tenure, etc.
+  - Attrition by Job Role & Gender
+  - Attrition by Experience
+  - Salary vs stress correlation
+  - Overtime impact
+- **Attrition Deep Dive**
+  - Burntout employees by Job Role
+  - Risk distribution among employees
+  - Salary outliers
+  - Work-life Balance & Job Satisfaction impact
+  - Attrition rate by Education level
+
 ---
 
 ## Key Insights
 - Employees with **low salary + overtime** are high-risk
-- Attrition is higher in **early tenure stages**
-- Long commute distances reduce work-life balance
-- Promotions significantly impact satisfaction
+- Attrition significantly decreases with experience
+- High stress score is closely related with attrition
+- Certain job roles show higher burnout levels
+- Promotions significantly impact job satisfaction
 
 ---
 
-## Tech Stack
-- SQL (MySQL)
-- Data Analysis
-
----
-
-## 🚀 Future Improvements
-- Build ML model for attrition prediction
-- Create dashboards (Power BI / Tableau)
-- Add clustering for employee segmentation
+## Tools & Technologies
+- SQL (MySQL) - Data cleaning, transformation, analysis
+- Power BI - Dashboard & data visualizations
+- DAX - Measures & Calculated columns
 
 ---
