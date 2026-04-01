@@ -22,7 +22,7 @@ The project includes:
 
 ## Dataset
 - Source: Kaggle  
-- Dataset: Employee Attrition Uncleaned Dataset
+- Dataset: Employee Attrition Unclean Dataset
 - Link: https://www.kaggle.com/datasets/nikhilbhosle/employee-attrition-uncleaned-dataset
 
 ---
@@ -49,7 +49,7 @@ The project includes:
 - Experience-based grouping
 
 ###  Advanced SQL Techniques
-- Window functions (`RANK`, `DENSE_RANK`, `NTILE`)
+- Window functions ('RANK', 'DENSE_RANK', 'NTILE')
 - CTEs (Common Table Expressions)
 - Conditional aggregation
 
