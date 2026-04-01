@@ -28,8 +28,8 @@ The project includes:
 ---
 
 ## Data Cleaning & Preparation (SQL)
-- Removed duplicate records using 'ROW_NUMBER()'
-- Cleaned numeric fields using 'REGEXP_REPLACE'
+- Removed duplicate records using `ROW_NUMBER()`
+- Cleaned numeric fields using `REGEXP_REPLACE`
 - Trimmed and standardized text fields
 - Renamed inconsistent column names
 - Performed validation checks (age, income)
@@ -49,7 +49,7 @@ The project includes:
 - Experience-based grouping
 
 ###  Advanced SQL Techniques
-- Window functions ('RANK', 'DENSE_RANK', 'NTILE')
+- Window functions (`RANK`, `DENSE_RANK`, `NTILE`)
 - CTEs (Common Table Expressions)
 - Conditional aggregation
 
